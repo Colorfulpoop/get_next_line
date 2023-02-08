@@ -1,15 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line_utils.c                              :+:      :+:    :+:   */
+/*   get_next_line_utils_bonus.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jtabilas <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/02/06 16:34:00 by jtabilas          #+#    #+#             */
-/*   Updated: 2023/02/06 16:34:03 by jtabilas         ###   ########.fr       */
+/*   Created: 2023/02/08 16:29:59 by jtabilas          #+#    #+#             */
+/*   Updated: 2023/02/08 16:30:01 by jtabilas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {
@@ -86,3 +86,4 @@ size_t	ft_strlen(const char *theString)
 		i++;
 	return (i);
 }
+
